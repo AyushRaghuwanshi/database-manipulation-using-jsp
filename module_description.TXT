@@ -1,0 +1,53 @@
+# index.html
+It is the home page of our website . There are links given to all other pages .
+Four links are given there :
+1. Insert, delete and update any information in the database. That is, insert, delete,
+and update the information of friends, songs, groups, messages between friends,
+and so on.
+2. View (in separate pages) all users, all groups, all songs, and so on.
+3. Given a user’s email address, create a report page with all friends she has, along
+with all groups she belongs .
+4. Allow user to search for songs by title (to then add them to their favorites list)
+# DatabaseManipulationUser.jsp
+Here we can insert new record in user_info table and we have two link edit and delete in
+each record as a column by which we can update and delete the records.
+Here we are using email as primary key to identify each record differently .we need this
+when we are going to update tables delete the records.
+We have separate view of table in there.
+# DatabaseManipulationSongs.jsp
+Here we can insert new record in songs table and we have two link edit and delete in
+each record as a column by which we can update and delete the records.
+Here we are using (song_title and Year) as primary key(compostie key) to identify each
+record differently .We need this when we are going to update tables and delete the
+records.
+we have separate view of table in there.
+# Delete_user
+It is a page on which we are going to identify which records from which table we want to
+delete.
+# Delete_songs
+Same functionality as delete_user.
+# update_user
+It is a jsp page to update record in user table on which we are identifing the record from
+primary key in which we want to do change and then we are given previous input as
+default entry.
+# update_songs
+It is a jsp page to update record in user table on which we are identifing the record from
+primary key in which we want to do change and then we are given previous input as
+default entry.
+# Views.jsp
+Here we have link to all other avaliable views.
+# All_songs
+Here we are fetching all songs name from all_songs view.
+# All_Users
+Here we are fetching all user names from all_user view.
+# report.jsp
+Here we have to give a email id so that it can generate a report about frined and group
+he or she belongs according to their email address.
+# favoutires.jsp
+Here we are showing all the songs availabel and asking from the user to enter his email
+id and song from the song list . we are adding new row from the given information . we
+have to identify the year column from songs with the help of song title so that it can be
+added in the favourite table along with the other values.
+# options
+Here we are giving the option on which table we want to perform
+modification(insert,delete,update).
